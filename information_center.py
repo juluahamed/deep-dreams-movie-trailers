@@ -34,10 +34,21 @@ fight_club = media.Movies('Fight Club', 'Always remember the first rule',
                           "https://www.youtube.com/watch?v=SUXWAEX2jlg",
                           "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg")
 
+silver_linings_playbook = media.Movies('Silver Linings Playbook', 'Watch for the signs',
+                                        7.8, 'http://www.imdb.com/title/tt1045658/',
+                                        "https://www.youtube.com/watch?v=Lj5_FhLaaQQ",
+                                        "https://upload.wikimedia.org/wikipedia/en/9/9a/Silver_Linings_Playbook_Poster.jpg")
+
+rush = media.Movies(Rush, "Everyone's driven by something",
+                    8.1, 'http://www.imdb.com/title/tt1979320/',
+                    "https://www.youtube.com/watch?v=L_u3FODrenM",
+                    "https://upload.wikimedia.org/wikipedia/en/d/d0/Rush_UK_poster.jpeg")
+
 
 #Add movie object in the list 
 movies_list = [good_will_hunting, inception, the_dark_knight, bourne_ultimatum,
-               the_secret_life_of_walter_mitty, fight_club]
+               the_secret_life_of_walter_mitty, fight_club, silver_linings_playbook,
+                rush]
 
 #Invoke open_movie_page function and pass the list as argument
 deep_dreams.open_movies_page(movies_list)
