@@ -39,7 +39,7 @@ silver_linings_playbook = media.Movies('Silver Linings Playbook', 'Watch for the
                                         "https://www.youtube.com/watch?v=Lj5_FhLaaQQ",
                                         "https://upload.wikimedia.org/wikipedia/en/9/9a/Silver_Linings_Playbook_Poster.jpg")
 
-rush = media.Movies(Rush, "Everyone's driven by something",
+rush = media.Movies('Rush', "Everyone's driven by something",
                     8.1, 'http://www.imdb.com/title/tt1979320/',
                     "https://www.youtube.com/watch?v=L_u3FODrenM",
                     "https://upload.wikimedia.org/wikipedia/en/d/d0/Rush_UK_poster.jpeg")
