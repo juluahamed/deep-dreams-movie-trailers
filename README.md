@@ -46,7 +46,6 @@ run information_center.py
 ```
 python information_center.py
 ```
-
 	This will invoke deep_dreams.py file. It creates your html file named 'deep_dreams.html' in the
 	directory and opens it in your browser.
 
