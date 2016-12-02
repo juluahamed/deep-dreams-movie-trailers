@@ -10,7 +10,7 @@ Backend is written in python.
 ##Usage
 - Make sure you have python 2.7 environment installed. If not, find instructions [here](https://www.python.org/download/releases/2.7/)
 - Run information_center.py
-```python information_center.py
+``` python information_center.py
 ```
 - Watch Trailer  button plays the trailer of movie
 - Clicking star ratings opens IMDb page for the movie in a new tab.
