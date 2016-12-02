@@ -27,7 +27,7 @@ python information_center.py
 ##Instructions
 - Add/Remove your favourite movie
 - To add new movie, edit in information_center.py file
-Example: To Add the movie 'Good Will Hunting'. Add following line
+	Example: To Add the movie 'Good Will Hunting'. Add following line
 
 ```
 	good_will_hunting = media.Movies('Good Will Hunting', 'Boy genius from the streets find about life',
@@ -47,8 +47,8 @@ run information_center.py
 python information_center.py
 ```
 
-This will invoke deep_dreams.py file. It creates your html file named 'deep_dreams.html' in the
-directory and opens it in your browser.
+	This will invoke deep_dreams.py file. It creates your html file named 'deep_dreams.html' in the
+	directory and opens it in your browser.
 
 
 
